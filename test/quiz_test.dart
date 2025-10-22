@@ -12,8 +12,8 @@ main() {
 
   test('All answers are good (100%)', () {
     // Create the answer here
-    Answer a1 = Answer(question: q1, answerChoice: "4", playerId: 1);
-    Answer a2 = Answer(question: q2, answerChoice: "5", playerId: 1);
+    Answer a1 = Answer(questionId: q1.id, answerChoice: "4", playerId: 1);
+    Answer a2 = Answer(questionId: q2.id, answerChoice: "5", playerId: 1);
 
     quiz.answers = [a1, a2];
 
@@ -31,8 +31,8 @@ main() {
 
   test('Some answers are wrong', () {
     // Create the answer here
-    Answer a3 = Answer(question: q3, answerChoice: "Door", playerId: 1);
-    Answer a4 = Answer(question: q4, answerChoice: "1", playerId: 1);
+    Answer a3 = Answer(questionId: q3.id, answerChoice: "Door", playerId: 1);
+    Answer a4 = Answer(questionId: q4.id, answerChoice: "1", playerId: 1);
 
     quizs.answers = [a3, a4];
 
@@ -50,8 +50,8 @@ main() {
 
   test('All wrong answers', () {
     // Create the answer here
-    Answer a5 = Answer(question: q5, answerChoice: "4", playerId: 1);
-    Answer a6 = Answer(question: q6, answerChoice: "1", playerId: 1);
+    Answer a5 = Answer(questionId: q5.id, answerChoice: "4", playerId: 1);
+    Answer a6 = Answer(questionId: q6.id, answerChoice: "1", playerId: 1);
 
     quizss.answers = [a5, a6];
 
