@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "id": "q1-uuid",
+      "title": "Capital of France?",
+      "choices": ["Paris", "London", "Rome"],
+      "goodChoice": "Paris",
+      "point": 1
+    },
+    {
+      "id": "q2-uuid",
+      "title": "2 + 2 = ?",
+      "choices": ["2", "4", "5"],
+      "goodChoice": "4",
+      "point": 1
+    },
+    {
+      "id": "q3-uuid",
+      "title": "Which is a programming language?",
+      "choices": ["Python", "Snake", "Cobra"],
+      "goodChoice": "Python",
+      "point": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "a1-uuid",
+      "playerId": "1",
+      "questionId": "q1-uuid",
+      "answerChoice": "Paris"
+    },
+    {
+      "id": "a2-uuid",
+      "playerId": "1",
+      "questionId": "q2-uuid",
+      "answerChoice": "4"
+    }
+  ]
+}

@@ -31,7 +31,7 @@ class QuizConsole {
 
       // Check for null input
       if (userInput != null && userInput.isNotEmpty) {
-        Answer answer = Answer(question: question, answerChoice: userInput, playerId: player.playerId);
+        Answer answer = Answer(questionId: question.id, answerChoice: userInput, playerId: player.playerId);
         quiz.addAnswer(answer);
       } else {
         print('No answer entered. Skipping question.');
